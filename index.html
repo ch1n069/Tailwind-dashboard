@@ -7,32 +7,39 @@
     <link href="/public/styles.css" rel="stylesheet" />
   </head>
 
-  <body
-    class="bg-gray-100 sm:bg-yellow-300 md:bg-green-300 lg:bg-pink-300 xl:bg-blue-400"
-  >
-    <!-- content wrapper -->
-    <div class="px-8 py-12 max-w-md mx-auto">
-      <h3>logo</h3>
-      <img
-        class="h-40 mt-6 rounded-lg shadow-xl"
-        src="https://images.pexels.com/photos/1188470/pexels-photo-1188470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        alt=""
-      />
-      <h1 class="mt-6 text-2xl font-bold text-gray-900">
-        You can work from anywhere
-        <span class="text-indigo-500">take advantage of that</span>
-      </h1>
-      <p class="mt-2 text-gray-600">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum,
-        praesentium fugit iusto fugiat dignissimos eaque et corrupti nobis
-        consequatur recusandae.
-      </p>
-      <div class="mt-4">
-        <a
-          class="inline-block rounded-lg shadow-lg bg-indigo-500 text-white px-5 py-3 uppercase tracking-wide font-semibold text-sm"
-          href=""
-          >Book your escape</a
-        >
+  <body class="bg-gray-100">
+    <div class="grid lg:grid-cols-2">
+      <!-- content wrapper -->
+      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl">
+        <h3>logo</h3>
+        <img
+          class="h-40 mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-50 sm:object-cover object-center lg:hidden"
+          src="https://images.pexels.com/photos/1188470/pexels-photo-1188470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt=""
+        />
+        <h1 class="mt-6 text-2xl font-bold text-gray-900">
+          You can work from anywhere
+          <span class="text-indigo-500">take advantage of that</span>
+        </h1>
+        <p class="mt-2 text-gray-600">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum,
+          praesentium fugit iusto fugiat dignissimos eaque et corrupti nobis
+          consequatur recusandae.
+        </p>
+        <div class="mt-4">
+          <a
+            class="inline-block rounded-lg shadow-lg bg-indigo-500 text-white px-5 py-3 uppercase tracking-wide font-semibold text-sm"
+            href=""
+            >Book your escape</a
+          >
+        </div>
+      </div>
+      <div class="hidden lg:inline-block relative">
+        <img
+          class="absolute inset-0 w-full h-full object-cover object-center"
+          src="https://images.pexels.com/photos/1188470/pexels-photo-1188470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt=""
+        />
       </div>
     </div>
   </body>
